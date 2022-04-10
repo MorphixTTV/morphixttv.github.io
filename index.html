@@ -92,11 +92,46 @@ img[class^=imgrow] {
   opacity: 1;
 }
 
-.text {
+.button {
   background-color: #F1BC39;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
-  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.Obit {
+  background-color: #A0A0A0;
+  border: none;
+  color: #212332;
+  font-family: serif; Georgia; sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25%
+}
+
+.Obitcontainer { 
+  height: 30px;
+  position: relative;
+}
+
+.Obitcenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 blockquote.twitter-tweet {
@@ -142,17 +177,23 @@ blockquote.twitter-tweet a:focus {
 </head>
 <body>
 
-<div class="banner">
+
 <img class="banner" src="https://raw.githubusercontent.com/MorphixTTV/morphixttv.github.io/main/Banner.png" alt="Incontrol Banner"/>
 
-<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">With immense grief, we announce Geoff’s unexpected passing due to sudden illness Saturday. We ask privacy as his family works to understand what happened and make arrangements. To honor Geoff or offer comfort to his family, we suggest donations to <a href="https://twitter.com/SoCalBulldog?ref_src=twsrc%5Etfw">@SoCalBulldog</a>, which he loved.</p>&mdash; Geoff Robinson (@iNcontroLTV) <a href="https://twitter.com/iNcontroLTV/status/1153103748308381696?ref_src=twsrc%5Etfw">July 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<div class="Obitcontainer">
+  <div class="Obitcenter">
+<a href="https://www.harveyfuneral.com/obituary/geoffrey-robinson" class="Obit">Obituary</a>
+  </div>
 </div>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">With immense grief, we announce Geoff’s unexpected passing due to sudden illness Saturday. We ask privacy as his family works to understand what happened and make arrangements. To honor Geoff or offer comfort to his family, we suggest donations to <a href="https://twitter.com/SoCalBulldog?ref_src=twsrc%5Etfw">@SoCalBulldog</a>, which he loved.</p>&mdash; Geoff Robinson (@iNcontroLTV) <a href="https://twitter.com/iNcontroLTV/status/1153103748308381696?ref_src=twsrc%5Etfw">July 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 
 
 <div class="container">
        <a href="https://socalbulldogrescue.org/help-us/donate/"><img class="SoCal image" src="https://raw.githubusercontent.com/MorphixTTV/morphixttv.github.io/main/SoCal200x200.png" alt="Southern California Bulldog Rescue" width="200" height="200"/></a>
   <div class="middle">
-    <div class="text"><a href="https://socalbulldogrescue.org/help-us/donate/">Donate</a></div>
+    <a href="https://socalbulldogrescue.org/help-us/donate/" class="button">Donate</a>
   </div>
 </div>
 
